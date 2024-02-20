@@ -74,3 +74,20 @@ header {
   opacity: 0.9;
   font-family: Helvetica, sans-serif;
 }
+
+/* section */
+
+.tea-of-month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  background-color: blanchedalmond;
+}
+
+.top-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
