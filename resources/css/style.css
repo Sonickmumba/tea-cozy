@@ -48,7 +48,11 @@ header {
   width: 100%;
 }
 
-.title {
+.mission-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 95%;
   height: 700px;
   background-image: url('/resources/images/img-mission-background.jpeg');
@@ -58,18 +62,15 @@ header {
   margin: 0 auto;
 }
 
-/* .mission-message .title {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 1200px;
+.title {
   background-color: black;
-} */
+  width: 100%;
+}
 
-/* .mission, .message {
+.mission, .message {
   text-align: center;
   color: seashell;
   font-size: 22px;
   opacity: 0.9;
   font-family: Helvetica, sans-serif;
-} */
+}
