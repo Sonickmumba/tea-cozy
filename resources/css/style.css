@@ -14,7 +14,6 @@ header {
   align-items: center;
   width: 100%;
   height: 69px;
-  /* position: fixed; */
   border-bottom: 1px solid seashell;
 }
 
@@ -96,7 +95,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: blanchedalmond; */
 }
 
 .top-images {
